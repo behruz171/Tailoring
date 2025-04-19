@@ -523,7 +523,7 @@
   
   /* Hero Section */
   .hero {
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     align-items: center;
     position: relative;
@@ -1877,7 +1877,7 @@
       top: 0;
       right: -100%;
       width: 70%;
-      height: 100vh;
+      height: 100dvh;
       background-color: var(--card-bg);
       flex-direction: column;
       align-items: center;
@@ -1946,7 +1946,7 @@
   
     /* Fix for hero section on mobile */
     .hero {
-      min-height: 100vh;
+      min-height: 100dvh;
       height: auto;
       padding-top: 80px;
     }

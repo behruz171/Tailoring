@@ -341,24 +341,28 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   
     // Theme toggle
-    const body = document.body
-    const themeToggle = document.querySelector(".theme-toggle")
-  
+    const body = document.body;
+    const themeToggles = document.querySelectorAll(".theme-toggle");
+
     // Check for saved theme preference
-    const savedTheme = localStorage.getItem("theme")
+    const savedTheme = localStorage.getItem("theme");
     if (savedTheme === "dark") {
-      body.classList.add("dark-mode")
+    body.classList.add("dark-mode");
     }
-  
-    themeToggle.addEventListener("click", () => {
-      body.classList.toggle("dark-mode")
-      // Save theme preference
-      if (body.classList.contains("dark-mode")) {
-        localStorage.setItem("theme", "dark")
-      } else {
-        localStorage.setItem("theme", "light")
-      }
-    })
+
+    // Har bir tugmaga click listener qo‘shamiz
+    themeToggles.forEach((toggle) => {
+    toggle.addEventListener("click", () => {
+        body.classList.toggle("dark-mode");
+
+        // Save theme preference
+        if (body.classList.contains("dark-mode")) {
+        localStorage.setItem("theme", "dark");
+        } else {
+        localStorage.setItem("theme", "light");
+        }
+    });
+    });
   
     // Language selector
     const languageLinks = document.querySelectorAll(".language-dropdown a")
