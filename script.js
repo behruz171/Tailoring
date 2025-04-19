@@ -32,12 +32,12 @@ document.addEventListener("DOMContentLoaded", () => {
   
         // About section
         about_subtitle: "Bizning tarix",
-        about_title: "1985 yildan beri mukammallik",
+        about_title: "2020 yildan beri mukammallik",
         about_heading: "Tikuvchilik mukammalligi",
         about_p1:
           "Elegance'da har bir chok bir hikoyani aytib beradi deb ishonamiz. Bizning usta tikuvchilarimiz o'zlarining ko'p yillik tajribalarini qo'llab, nafaqat mukammal o'lchamli, balki sizning noyob shaxsiyatingiz va uslubingizni aks ettiruvchi kiyimlar yaratadi.",
         about_p2:
-          "1985 yilda asos solingan ustaxonamiz avlodlarni har bir detalga e'tibor va sifatga bo'lgan sodiqlik bilan kiyintirgan. Biz har bir buyum vaqt sinovidan o'tishini ta'minlash uchun dunyoning eng yaxshi matolarini tanlaymiz.",
+          "2020 yilda asos solingan ustaxonamiz avlodlarni har bir detalga e'tibor va sifatga bo'lgan sodiqlik bilan kiyintirgan. Biz har bir buyum vaqt sinovidan o'tishini ta'minlash uchun dunyoning eng yaxshi matolarini tanlaymiz.",
         stat_years: "Yillik tajriba",
         stat_clients: "Mamnun mijozlar",
         stat_tailors: "Usta tikuvchilar",
@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
         form_option_other: "Boshqa",
   
         // Footer
-        footer_tagline: "1985 yildan beri elegantlik yaratish",
+        footer_tagline: "2020 yildan beri elegantlik yaratish",
         footer_links_title: "Tezkor havolalar",
         footer_social_title: "Bizni kuzating",
         footer_newsletter_title: "Yangiliklar",
@@ -172,12 +172,12 @@ document.addEventListener("DOMContentLoaded", () => {
   
         // About section
         about_subtitle: "Наша история",
-        about_title: "Совершенство с 1985 года",
+        about_title: "Совершенство с 2020 года",
         about_heading: "Мастерство пошива",
         about_p1:
           "В Elegance мы верим, что каждый стежок рассказывает историю. Наши мастера-портные используют свой многолетний опыт, чтобы создавать одежду, которая не только идеально сидит, но и отражает вашу уникальную индивидуальность и стиль.",
         about_p2:
-          "Основанная в 1985 году, наша мастерская одевала поколения с вниманием к деталям и приверженностью качеству. Мы выбираем лучшие ткани со всего мира, чтобы каждое изделие выдержало испытание временем.",
+          "Основанная в 2020 году, наша мастерская одевала поколения с вниманием к деталям и приверженностью качеству. Мы выбираем лучшие ткани со всего мира, чтобы каждое изделие выдержало испытание временем.",
         stat_years: "Лет опыта",
         stat_clients: "Довольных клиентов",
         stat_tailors: "Мастеров-портных",
@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", () => {
         form_option_other: "Другое",
   
         // Footer
-        footer_tagline: "Создаем элегантность с 1985 года",
+        footer_tagline: "Создаем элегантность с 2020 года",
         footer_links_title: "Быстрые ссылки",
         footer_social_title: "Следите за нами",
         footer_newsletter_title: "Новости",
