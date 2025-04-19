@@ -1776,6 +1776,7 @@
   }
   
   .newsletter-form input {
+    width: 100%;
     flex: 1;
     padding: 10px 15px;
     border: none;
